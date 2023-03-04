@@ -8,7 +8,6 @@ function verificaSeOChutePossuiUmValorValido(chute){
             <h2>Game Over!!!</h2>
             <h3>Pressione o botão para jogar novamente<h3>
             <button id="jogar-novamente" class="btn-jogar">Jogar novamente!</button>
-
             `
             document.body.style.backgroundColor = "black";
         }else{
@@ -19,8 +18,6 @@ function verificaSeOChutePossuiUmValorValido(chute){
         elementoChute.innerHTML += `<div>Valor inválido: O número secreto precisa estar entre ${menorValor} e ${maiorValor}</div>`
         return
     }
-
-   
 
     if(numero === numeroSecreto){
         document.body.innerHTML = `
